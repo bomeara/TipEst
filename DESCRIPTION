@@ -1,0 +1,19 @@
+Package: TipEst
+Title: Estimates Missing Discrete States on a Phylogeny
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Brian",
+           family = "O'Meara",
+           role = c("aut", "cre"),
+           email = "omeara.brian@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package estimates tips.
+License: GPL 3.0
+Encoding: UTF-8
+LazyData: true
+Requires:
+    ape,
+    geiger
+Suggests:
+    testthat
+RoxygenNote: 7.1.0
